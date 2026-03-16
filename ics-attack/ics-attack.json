@@ -3,30 +3,25 @@
     "id": "bundle--3a9ade1d-5f58-4050-9d66-13dc9d4e17e3",
     "objects": [
         {
-            "type": "x-mitre-matrix",
-            "id": "x-mitre-matrix--5104d5f0-16b7-4aec-8ae3-0a90cd5494fc",
-            "created": "2018-10-17T00:14:20.652Z",
+            "type": "course-of-action",
+            "id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
+            "created": "2017-10-25T14:48:51.657Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/matrices/mobile-attack",
-                    "external_id": "mobile-attack"
+                    "url": "https://attack.mitre.org/mitigations/M1006",
+                    "external_id": "M1006"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-18T18:00:50.259Z",
-            "name": "Network-Based Effects",
-            "description": "Below are the tactics and techniques representing the two MITRE ATT&CK Matrices for Mobile. The Matrices cover techniques involving device access and network-based effects that can be used by adversaries without device access. The Matrices contains information for the following platforms: Android, iOS.",
-            "tactic_refs": [
-                "x-mitre-tactic--9eb4c21e-4fa8-44c9-b167-dbfc455f9210",
-                "x-mitre-tactic--e78d7d60-41b5-49b7-b0a9-5c5d4cbabe17"
-            ],
+            "modified": "2025-04-25T14:40:08.756Z",
+            "name": "Use Recent OS Version",
+            "description": "New mobile operating system versions bring not only patches against discovered vulnerabilities but also often bring security architecture improvements that provide resilience against potential vulnerabilities or weaknesses that have not yet been discovered. They may also bring improvements that block use of observed adversary techniques.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_deprecated": true,
+            "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"
             ],
