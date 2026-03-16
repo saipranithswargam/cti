@@ -4,24 +4,25 @@
     "objects": [
         {
             "type": "course-of-action",
-            "id": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
-            "created": "2017-10-25T14:48:51.657Z",
+            "id": "course-of-action--1553b156-6767-47f7-9eb4-2a692505666d",
+            "created": "2019-10-18T12:49:58.924Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/mitigations/M1006",
-                    "external_id": "M1006"
+                    "url": "https://attack.mitre.org/mitigations/M1005",
+                    "external_id": "M1005"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-25T14:40:08.756Z",
-            "name": "Use Recent OS Version",
-            "description": "New mobile operating system versions bring not only patches against discovered vulnerabilities but also often bring security architecture improvements that provide resilience against potential vulnerabilities or weaknesses that have not yet been discovered. They may also bring improvements that block use of observed adversary techniques.",
+            "modified": "2025-04-18T18:00:49.664Z",
+            "name": "Application Vetting",
+            "description": "Enterprises can vet applications for exploitable vulnerabilities or unwanted (privacy-invasive or malicious) behaviors. Enterprises can inspect applications themselves or use a third-party service.\n\nEnterprises may impose policies to only allow pre-approved applications to be installed on their devices or may impose policies to block use of specific applications known to have issues. In Bring Your Own Device (BYOD) environments, enterprises may only be able to impose these policies over an enterprise-managed portion of the device.\n\nApplication Vetting is not a complete mitigation. Techniques such as [Evade Analysis Environment](https://attack.mitre.org/techniques/T1523) exist that can enable adversaries to bypass vetting.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_deprecated": false,
+            "x_mitre_deprecated": true,
             "x_mitre_domains": [
                 "mobile-attack"
             ],
